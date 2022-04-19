@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "djangocelery"
+version = "0.1.0"
+description = "Django Celery"
+authors = ["Louis Agyapong <agyapong.louis@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.4"
+django-extensions = "^3.1.5"
+python-decouple = "^3.6"
+ipython = "^8.2.0"
+dj-database-url = "^0.5.0"
+black = "^22.3.0"
+mypy = "^0.942"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+celery = "^5.2.6"
+django-stubs = "^1.10.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
