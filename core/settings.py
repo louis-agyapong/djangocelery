@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # Local apps
+    "apps.alpha",
     # External apps
     "django_extensions",
 ]
