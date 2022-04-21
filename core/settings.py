@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Local apps
     "apps.alpha",
+    "apps.review",
     # External apps
     "django_extensions",
 ]
